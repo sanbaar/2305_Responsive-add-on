@@ -1,0 +1,66 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(../images/01_baobab_ave.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  margin-bottom: 0;
+  letter-spacing: 20px;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin-bottom: 180px;
+  margin-top: 0;
+}
+
+header a {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: white;
+  padding: 16px 32px;
+  margin-top: 32px;
+  border-radius: 6px;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 50px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+    letter-spacing: 5px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header a {
+    font-size: 7px;
+  }
+}
