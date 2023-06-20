@@ -110,6 +110,10 @@ footer a {
   padding: 10px 23px;
 }
 
+.card-header .grid {
+  grid-gap: 0px;
+}
+
 .card img {
   width: 100%;
 }
