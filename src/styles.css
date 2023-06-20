@@ -110,7 +110,7 @@ footer a {
   padding: 10px 23px;
 }
 
-.card-header .grid {
+.card-header.grid {
   grid-gap: 0px;
 }
 
