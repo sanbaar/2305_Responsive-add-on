@@ -68,12 +68,8 @@ main p {
   font-size: 16px;
 }
 
-main img {
-  max-width: 100%;
-}
-
 section {
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 100px 100px;
 }
 section.secondary {
@@ -162,6 +158,19 @@ footer a {
 
 .grid-3-columns-different-width {
   grid-template-columns: 2fr 3fr 2fr;
+}
+
+.grid-3-columns-itinerary {
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.img-lemur {
+  max-width: 90%;
+  border-radius: 5px;
+}
+
+.itinerary-map {
+  max-width: 90%;
 }
 
 @media (max-width: 900px) {
