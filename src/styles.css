@@ -13,7 +13,7 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 30px 0;
+  padding: 130px 0;
   margin: 0;
 }
 
@@ -22,6 +22,7 @@ header h1 {
   font-size: 96px;
   margin-bottom: 0;
   letter-spacing: 20px;
+  margin-top: 0px;
 }
 
 header h2 {
@@ -53,6 +54,7 @@ main h2 {
   letter-spacing: 5px;
   text-transform: uppercase;
   margin: 0;
+  color: #686868;
 }
 
 main h3 {
@@ -67,7 +69,7 @@ main p {
 }
 
 main img {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 section {
@@ -107,20 +109,34 @@ footer a {
 }
 
 .card-body {
-  padding: 10px 23px;
+  padding: 10px 0px;
 }
 
-.card-header.grid {
-  grid-gap: 0;
+.card-body p {
+  text-align: justify;
+}
+
+.card {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
 .card img {
   width: 100%;
+  display: block;
+}
+
+.card h2 {
+  color: black;
+  padding-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .embed {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 16 / 9;
 }
 
 .secondary h3 {
