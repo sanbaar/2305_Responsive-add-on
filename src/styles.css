@@ -193,6 +193,10 @@ footer a {
   margin: 0;
 }
 
+.road-trip-paragraph a {
+  text-decoration: none;
+}
+
 .section-photo-gallery img {
   max-width: 100%;
   transition: all 0.3s ease-in-out;
